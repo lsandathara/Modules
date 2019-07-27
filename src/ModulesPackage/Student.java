@@ -1,21 +1,20 @@
 package ModulesPackage;
 
 public class Student {
-	private String Id;
-	private String name;
-	public String getId() {
-		return Id;
+	private String stdId;
+	private String Name;
+	public String getStdId() {
+		return stdId;
 	}
-	public void setId(String id) {
-		Id = id;
+	public void setStdId(String stdId) {
+		this.stdId = stdId;
 	}
 	public String getName() {
-		return name;
+		return Name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		Name = name;
 	}
-	
-	
 
+	
 }
